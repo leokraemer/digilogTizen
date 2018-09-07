@@ -1,0 +1,34 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-image:url(/image/ambient.png);
+}
+
+body {
+	margin: 0px;
+}
+
+#canvas-content {
+	top: 0; left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#hour {
+	width: 100%;
+    height: 250px;
+    line-height: 300px;
+    font-family: 'helvetica' !important;
+    font-size: 250px;
+    text-align: center;
+    z-index: 2;
+}
+
+@font-face {
+    font-family: helvetica;
+    src: url(/fonts/helvetica.ttf);
+}
