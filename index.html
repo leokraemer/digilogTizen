@@ -10,6 +10,40 @@
 </head>
 
 <body>
+	 <svg height="100%" width="100%" id="svg">
+	 <!--  <defs>
+	    <filter id="f1" x="-50%" y="-50%" width="200%" height="200%">
+	      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="gaussOut" />
+	      <feColorMatrix result="matrixOut" in="gaussOut" type="matrix"
+      			values="0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0" />
+	      <feOffset result="offOut" in="matrixOut" dx="3" dy="3" />
+	      <feBlend in="gaussOut" in2="offOut" mode="normal" />
+	    </filter>
+	    <clipPath id="c">
+	      <path d="M 180 0
+	  			A 180 180 0 1 1 0 180
+	  			L 180 180 Z" />
+	    </clipPath>
+	    <clipPath id="notc">
+	      <path d="M 180 0
+	               L 180 180
+	               L 0 180
+	               L 0 0 Z" />
+	    </clipPath>
+	    <filter id="f2" x="0" y="0" width="200%" height="200%">
+	    <feColorMatrix result="matrixOut" in="SourceGraphic" type="matrix"
+      			values="0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0" />
+	      <feOffset result="offOut" in="matrixOut" dx="3" dy="3" />
+	      <feBlend in="SourceGraphic" in2="offOut" mode="normal" />
+	    </filter>
+	  </defs>
+	  <text text-anchor="middle" x="180" y="280" font-family="helvetica" filter="url(#f2)" font-size="300px" clip-path="url(#notc)" fill="lightgrey">1</text>
+	  
+	  <text text-anchor="middle" x="180" y="280" font-family="helvetica" filter="url(#f1)" clip-path="url(#c)" font-size="300px" fill="lightgrey">1</text>
+	  <path d="M 180 0
+	  			A 180 180 0 1 1 0 180
+	  			L 180 180 Z" fill="lightgrey" fill-opacity="0.4" />-->
+	</svg> 
     <!-- <span id="hour"></span>-->
     <canvas id="canvas-content"></canvas>
     <script src="js/app.js"></script>
